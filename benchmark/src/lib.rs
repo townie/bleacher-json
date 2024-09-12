@@ -27,7 +27,7 @@ fn parse_sedre_json(mystr: String) {
     my_struct.i32;
     my_struct.str;
     my_struct.arr_str.iter().for_each(|x| {
-        x;
+        let y = x.as_str();
     });
 }
 
