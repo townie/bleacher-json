@@ -1,9 +1,14 @@
 # General benchmarking for Rust Json libraries
 
+<table>
+  <tr>
 Disclaimer
--
+  </tr>
+  <tr>
 This is a learning exercise and has room for improvements, suggestions and PRs are welcome
--
+  </tr>
+</table>
+
 
 
 Using a nightly rustc compiler, ran `cargo bench`
