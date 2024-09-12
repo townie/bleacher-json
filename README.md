@@ -2,10 +2,10 @@
 
 <table>
   <tr>
-Disclaimer
+<th>Disclaimer</th>
   </tr>
   <tr>
-This is a learning exercise and has room for improvements, suggestions and PRs are welcome
+ <td>This is a learning exercise and has room for improvements, suggestions and PRs are welcome </td>
   </tr>
 </table>
 
