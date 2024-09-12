@@ -1,0 +1,56 @@
+# Binaries for programs and tests
+/target/
+
+# Build artifacts
+**/*.rs.bk
+
+# Cargo package manager lock file (you might want to commit this)
+# This file ensures that the exact same versions of dependencies are used
+# across different environments.
+# Uncomment the next line if you want to ignore it.
+# /Cargo.lock
+
+# Ignore build scripts output files
+**/build.rs.bk
+
+# Dependency directory
+/.cargo/
+
+# Backup files created by editors
+*~
+*.swp
+*.swo
+*.bak
+
+
+
+# Rustdoc generated docs
+/doc/
+
+# Optional: If you're using the clippy tool for linting
+clippy.toml
+.clippy/
+
+# Optional: If you're using rustfmt for formatting
+rustfmt.toml
+.rustfmt/
+
+# Coverage files
+coverage/
+
+# Ignore compiled files
+*.o
+*.so
+*.rlib
+*.dylib
+*.dll
+*.exe
+*.app
+*.dSYM
+*.lo
+*.la
+*.a
+
+# Optional: If you're using testing tools like tarpaulin
+# This would ignore the tarpaulin coverage files.
+tarpaulin-report.html
